@@ -1,10 +1,15 @@
+import { Navbar } from "./components/Navbar";
+
 
 
 function App() {
   return (
-    <div className="bg-blue-600 h-screen grid place-items-center">
-      <h1>yiuyu</h1>
-    </div>
+    <>
+      <div className="flex flex-col min-h-screen w-full bg-indigo-800 ">
+        <Navbar />
+
+      </div>
+    </>
   );
 }
 

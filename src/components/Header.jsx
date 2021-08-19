@@ -3,9 +3,6 @@ import { Animator, ScrollContainer, ScrollPage, batch, Fade, MoveIn, MoveOut, St
 export const Header = () => {
 
     return (
-
-
-
         <ScrollContainer>
 
             <ScrollPage page={0}>
@@ -37,10 +34,10 @@ export const Header = () => {
                 <Animator animation={batch(Fade(), Sticky(), MoveIn(0, 0))}>
                     <div className='text-right  text-2xl md:text-4xl '>
                         <span >
-                            Y mis tecnologias son
+                            Y mis tecnologías son
                         </span>
                         <Animator animation={MoveIn(0, 200)}>
-                            JS,HTML,Css,Nodejs y MongoDB
+                            JS,Html,Css,Nodejs y MongoDB
                         </Animator>
                     </div>
                 </Animator>

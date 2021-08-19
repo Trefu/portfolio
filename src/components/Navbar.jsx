@@ -5,7 +5,7 @@ import { useState } from 'react'
 export const Navbar = () => {
     const [mobileOpen, setMobileOpen] = useState(false)
     return (
-        <nav className='container mx-auto flex flex-col md:flex-row  justify-between items-center py-2 font-bold text-lg text-white fixed t-1 z-10 max-w-screen-xl'>
+        <nav className='container mx-auto flex flex-col md:flex-row  justify-between items-center py-2  text-lg text-white fixed t-1 z-10 max-w-screen-xl'>
             <div className='flex justify-between w-11/12 md:w-auto'>
                 <span >
                     <a className='bg-gray-200 p-2 rounded-full ' href="/">
@@ -16,10 +16,10 @@ export const Navbar = () => {
             </div>
 
             <div className={`${mobileOpen ? '' : 'hidden'} md:flex `}>
-                <ul className='w-screen md:w-auto flex flex-col justify-center md:bg-transparent text-center text-4xl md:text-lg md:flex-row  list-none bg-gray-800 min-h-screen md:min-h-full '>
-                    <li className=' hover:text-gray-400 md:transform ease-out duration-500 md:mr-8 mb-12 md:mb-0 '> <a href='about' className='border-b-2 border-white md:border-none'>Sobre mí</a>
+                <ul className='w-screen md:w-auto flex flex-col justify-center md:bg-transparent text-center text-6xl md:text-lg md:flex-row  list-none nav-mobile-svg  min-h-screen md:min-h-full '>
+                    <li className=' hover:text-gray-400 md:transform ease-out duration-500 md:mr-8 mb-28 md:mb-0 '> <a href='about' className='border-b-2 border-white md:border-none'>Sobre mí</a>
                     </li>
-                    <li className=' hover:text-gray-400 md:transform ease-out duration-500 md:mr-8 mb-12 md:mb-0'><a href='tech' className='border-b-2 border-white md:border-none'>Tecnologías</a>
+                    <li className=' hover:text-gray-400 md:transform ease-out duration-500 md:mr-8 mb-28 md:mb-0'><a href='tech' className='border-b-2 border-white md:border-none'>Tecnologías</a>
                     </li>
                     <li className=' hover:text-gray-400 md:transform ease-out duration-500 '><a href='projects' className='border-b-2 border-white md:border-none'>Proyectos</a></li>
                 </ul>

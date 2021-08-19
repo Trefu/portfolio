@@ -3,7 +3,6 @@ import close from '../assets/close.png';
 import open from '../assets/open.png'
 export const NavbarBtn = (props) => {
     const { showMenu } = props;
-    console.log(showMenu)
     const [isOpen, setIsOpen] = useState(true);
     const [imgBtn, setImgBtn] = useState(open);
     const handleClick = (e) => {

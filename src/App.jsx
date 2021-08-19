@@ -10,7 +10,9 @@ function App() {
         <div className="svg-background">
           <Header />
         </div>
-        <div className="bg-gray-600 min-h-screen"></div>
+        <div className="bg-gray-600 min-h-screen">
+
+        </div>
       </div>
     </>
   );

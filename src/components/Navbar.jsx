@@ -7,16 +7,16 @@ export const Navbar = () => {
     return (
         <nav className='container mx-auto flex flex-col md:flex-row  justify-between items-center py-2  text-lg text-white fixed t-1 z-10 max-w-screen-xl'>
             <div className='flex justify-between w-11/12 md:w-auto'>
-                <span >
-                    <a className='bg-gray-200 p-2 rounded-full ' href="/">
-                        <img src={catIcon} alt="Cat logo" className='inline mb-1 ' style={{ width: '28px' }} />
+                <span  >
+                    <a className='bg-gray-200 p-2 rounded-full ml-0 md:ml-4 ' href="/">
+                        <img src={catIcon} alt="Cat logo" className='inline' style={{ width: '28px' }} />
                     </a>
                 </span>
                 <NavbarBtn showMenu={setMobileOpen} />
             </div>
 
-            <div className={`${mobileOpen ? '' : 'hidden'} md:flex `}>
-                <ul className='w-screen md:w-auto flex flex-col justify-center md:bg-transparent text-center text-6xl md:text-lg md:flex-row  list-none nav-mobile-svg  min-h-screen md:min-h-full '>
+            <div className={`${mobileOpen ? 'nav-mobile-svg ' : 'hidden'} md:flex `}>
+                <ul className='w-screen md:w-auto flex flex-col justify-center md:bg-transparent text-center text-6xl md:text-lg md:flex-row  list-none absolute md:relative  min-h-screen md:min-h-full '>
                     <li className=' hover:text-gray-400 md:transform ease-out duration-500 md:mr-8 mb-28 md:mb-0 '> <a href='about' className='border-b-2 border-white md:border-none'>Sobre mí</a>
                     </li>
                     <li className=' hover:text-gray-400 md:transform ease-out duration-500 md:mr-8 mb-28 md:mb-0'><a href='tech' className='border-b-2 border-white md:border-none'>Tecnologías</a>

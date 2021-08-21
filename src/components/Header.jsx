@@ -4,7 +4,6 @@ export const Header = () => {
 
     return (
         <ScrollContainer>
-
             <ScrollPage page={0}>
                 <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
                     <span className='text-xl md:text-4xl mr-16'>Hola!, soy Trefu 😀</span>

@@ -7,7 +7,23 @@
       font-family: 'Rubik', sans-serif;
       overflow-x: hidden;
    }
-
+   #proyectos {
+      position:relative;
+      min-height: 100vh;
+      width: 100%;
+   }
+   #proyectos::before {
+      content: "";
+      background-image: url('./assets/background-hero.png');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.45;
+   }
+   
    .shadow-box {
       background: rgba(255, 255, 255, 0.55);
       box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);

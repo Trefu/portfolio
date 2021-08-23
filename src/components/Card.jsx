@@ -1,11 +1,12 @@
-export const Card = ({ img }) => {
+export const Card = ({ img, url, title }) => {
     return (
-        <div class="py-20  md:mr-8">
-            <div class=" bg-white  mx-auto shadow-lg rounded-lg hover:shadow-xl transition duration-200 max-w-xl">
-                <img class="rounded-t-lg object-fill h-96 w-full" src={img} alt="" />
-                <div class="py-4 px-8">
-                    <h1 class="hover:cursor-pointer mt-2 text-gray-900 font-bold text-2xl tracking-tight">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
-                    <p class="hover:cursor-pointer py-3 text-gray-600 leading-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora neque eum autem repellat iure perferendis, possimus blanditiis temporibus doloribus corrupti.</p>
+        <div className="max-w-screen-sm mb-4">
+            <div className="mx-auto rounded-lg ">
+                <a href={url} target='_blank' rel='noreferrer'>
+                    <img className="hover:-translate-y-4 transform duration-200 rounded-t-lg w-full h-96" src={img} alt="" />
+                </a>
+                <div className="py-4 px-8">
+                    <h1 className="hover:cursor-pointer mt-2 text-white font-bold text-2xl tracking-wider">{title}</h1>
                 </div>
             </div>
         </div>

@@ -3,9 +3,13 @@
 @tailwind utilities;
 
 @layer utilities {
+   html{
+      scroll-behavior: smooth;
+   }
    body {
       font-family: 'Rubik', sans-serif;
       overflow-x: hidden;
+      
    }
    #proyectos {
       position:relative;

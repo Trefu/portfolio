@@ -1,3 +1,4 @@
+
 export const Card = ({ img, url, title }) => {
     return (
         <div className="max-w-screen-sm mb-4 z-10">

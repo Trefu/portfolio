@@ -24,7 +24,7 @@ export const Navbar = () => {
                 <ul className='w-screen md:w-auto flex flex-col justify-center md:bg-transparent text-center text-5xl md:text-lg md:flex-row  list-none absolute md:relative  min-h-screen md:min-h-full '>
                     <li className=' hover:text-gray-400 ease-out duration-500 md:mr-8 mb-28 md:mb-0 '> <a href='#about' className='border-b-2 border-white md:border-none'>Sobre mí</a>
                     </li>
-                    <li className=' hover:text-gray-400 ease-out duration-500 md:mr-8 mb-28 md:mb-0'><a href='tech' className='border-b-2 border-white md:border-none'>Tecnologías</a>
+                    <li className=' hover:text-gray-400 ease-out duration-500 md:mr-8 mb-28 md:mb-0'><a rel="noreferrer" target="_blank" href='https://api.whatsapp.com/send?phone=541167550132&text=Hola!!' className='border-b-2 border-white md:border-none'>Contacto</a>
                     </li>
                     <li className=' hover:text-gray-400 ease-out duration-500 '><a href='#projects' className='border-b-2 border-white md:border-none'>Proyectos</a></li>
                 </ul>

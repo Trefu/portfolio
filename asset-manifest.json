@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.65c027f4.chunk.css",
-    "main.js": "/portfolio/static/js/main.d6228cfc.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.d6228cfc.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.9e3988e4.chunk.css",
+    "main.js": "/portfolio/static/js/main.f664bec9.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.f664bec9.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.8aec69b5.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.8aec69b5.js.map",
     "static/js/2.0bc607a0.chunk.js": "/portfolio/static/js/2.0bc607a0.chunk.js",
@@ -10,19 +10,21 @@
     "static/js/3.a021a598.chunk.js": "/portfolio/static/js/3.a021a598.chunk.js",
     "static/js/3.a021a598.chunk.js.map": "/portfolio/static/js/3.a021a598.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.65c027f4.chunk.css.map": "/portfolio/static/css/main.65c027f4.chunk.css.map",
+    "static/css/main.9e3988e4.chunk.css.map": "/portfolio/static/css/main.9e3988e4.chunk.css.map",
     "static/js/2.0bc607a0.chunk.js.LICENSE.txt": "/portfolio/static/js/2.0bc607a0.chunk.js.LICENSE.txt",
     "static/media/index.css": "/portfolio/static/media/background-hero.3a20612f.png",
-    "static/media/calculator.969086fc.png": "/portfolio/static/media/calculator.969086fc.png",
+    "static/media/calculator.a2b24293.gif": "/portfolio/static/media/calculator.a2b24293.gif",
     "static/media/catIcon.1829d23e.png": "/portfolio/static/media/catIcon.1829d23e.png",
-    "static/media/drumpad.dfb5b5a8.png": "/portfolio/static/media/drumpad.dfb5b5a8.png",
-    "static/media/pomodoro.c7d2d016.png": "/portfolio/static/media/pomodoro.c7d2d016.png",
-    "static/media/quotes.97f6a835.png": "/portfolio/static/media/quotes.97f6a835.png"
+    "static/media/commerce.031e6a7e.gif": "/portfolio/static/media/commerce.031e6a7e.gif",
+    "static/media/drumpad.ac066dfe.gif": "/portfolio/static/media/drumpad.ac066dfe.gif",
+    "static/media/markdown.e5024e54.gif": "/portfolio/static/media/markdown.e5024e54.gif",
+    "static/media/pomodoro.5801c6f2.gif": "/portfolio/static/media/pomodoro.5801c6f2.gif",
+    "static/media/quotes.bdf82024.gif": "/portfolio/static/media/quotes.bdf82024.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.8aec69b5.js",
     "static/js/2.0bc607a0.chunk.js",
-    "static/css/main.65c027f4.chunk.css",
-    "static/js/main.d6228cfc.chunk.js"
+    "static/css/main.9e3988e4.chunk.css",
+    "static/js/main.f664bec9.chunk.js"
   ]
 }
